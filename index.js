@@ -18,7 +18,7 @@ function currentLine(line){
   for(let i = 0; i<line.length; i++){
   deliNames.push(`${i+1}. ${line[i]}`);
   }
-  return (`The line is currently: ${deliNames.join(',')}`);
+  return (`The line is currently: ${deliNames.join(', ')}`);
 }
   
   
