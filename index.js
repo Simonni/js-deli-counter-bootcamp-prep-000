@@ -1,6 +1,6 @@
 function takeANumber(line, name){
-  line.push(name);
-  return (`Welcome, ${name}. You are number ${line.length} in line.`);
+  line.push(line.length+1);
+  return (`Welcome, You are number ${line.length+1} in line.`);
 }
 
 function nowServing(line){
@@ -18,7 +18,7 @@ function currentLine(line){
   for(let i = 0; i<line.length; i++){
   deliNames.push(`${i+1}. ${line[i]}`);
   }
-  return (`The line is currently: ${deliNames.join(', ')}`);
+  return (`The line is currently: ${deliNames.toString()}`);
 }
   
   
