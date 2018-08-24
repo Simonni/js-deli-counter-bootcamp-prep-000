@@ -1,6 +1,6 @@
 function takeANumber(line, name){
   line.push(line.name);
-  return (`Welcome ${`line.name`}, You are number ${line.length+1} in line.`);
+  return (`Welcome, ${line.name}. You are number ${line.length+1} in line.`);
 }
 
 function nowServing(line){
